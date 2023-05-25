@@ -2,9 +2,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 html {
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
     /* font-family: 'Times New Roman', Times, serif; */
 }
 header {
@@ -14,6 +16,11 @@ header {
     display: flex;
     flex-direction: column;
 }
+.bx {
+    padding-top: 2px;
+    line-height: 0;
+}
+
 header > img {
     display: block;
     align-self: center;
@@ -21,6 +28,29 @@ header > img {
     aspect-ratio: 1 / 1;
     border-radius:  50%;
 }
+
+.action-button {
+    display: inline-flex;
+    font-size: 1.6rem;
+    padding: 1rem 1rem;
+    color: #005677;
+    background: #D9F0FF;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+.action-button:hover {
+    background: #005677;
+    color: #D9F0FF;
+}
+.aboutme-button {
+display: flex;
+justify-content: center;
+padding-top: 20px;
+}
+
 h1 {
     margin: 20px 0 0;
     letter-spacing: 9px;
@@ -30,7 +60,6 @@ h1 {
 h2 {
     padding: 4px 14px;
     letter-spacing: 9px;
-
 }
 h1, h2 {
     background: #C4C4C4;
@@ -39,6 +68,8 @@ h1, h2 {
 li > span {
     font-weight: 700;
     font-style: italic;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 dt {
     padding-left: 20px;
@@ -46,12 +77,13 @@ dt {
     position: absolute;
 } 
 dd {
-    margin-left: 100px;
+    margin-left: 120px;
 }
 
 footer {
     height: 30px;
     background: #005677;
+    padding: 20px 0;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -64,6 +96,7 @@ footer > p {
 footer > a {
     margin-left: 10px;
 }
-footer > img {
+footer > i {
     display: block;
+    padding-left: 10px;
 }
