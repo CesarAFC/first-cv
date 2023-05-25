@@ -12,7 +12,7 @@ html {
 header {
     background-color: #E6E6E6;
     background-image: url('../img/pexels-pixabay-270557.jpg');
-    background-size: contain;
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }
