@@ -11,7 +11,7 @@ html {
 }
 header {
     background-color: #E6E6E6;
-    background-image: url('/img/pexels-pixabay-270557.jpg');
+    background-image: url('../img/pexels-pixabay-270557.jpg');
     background-size: contain;
     display: flex;
     flex-direction: column;
